@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibCalc", "FibCalc\FibCalc.csproj", "{9DAD743A-1244-4759-ADDA-221EC52E9F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibCalc.UnitTests", "FibCalc.UnitTests\FibCalc.UnitTests.csproj", "{1701A9C8-B13B-478B-A83F-3837A0627FC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DAD743A-1244-4759-ADDA-221EC52E9F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAD743A-1244-4759-ADDA-221EC52E9F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAD743A-1244-4759-ADDA-221EC52E9F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAD743A-1244-4759-ADDA-221EC52E9F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1701A9C8-B13B-478B-A83F-3837A0627FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1701A9C8-B13B-478B-A83F-3837A0627FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1701A9C8-B13B-478B-A83F-3837A0627FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1701A9C8-B13B-478B-A83F-3837A0627FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
