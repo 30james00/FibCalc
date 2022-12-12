@@ -25,6 +25,17 @@ ciągu i który zwraca stronę z obliczoną wartością ciągu.
 
 #### B
 
+Budowanie obrazu lokalnie: `docker build -t fibcalc:1.0.0 . `  
+Rezultat wykonania polecenia:
+![Budowanie lokalnie](Screenshots/build_local.png)
+
+#### C
+
+Uruchomienie aplikacji lokalnie: ``  
+Rezultat wykonania polecenia:
+![Uruchomienie lokalnie](Screenshots/run_local.png)
+TODO: Screen aplikacji 
+
 ## Część nieobowiązkowa
 
 ### Zadanie nieobowiązkowe 1
