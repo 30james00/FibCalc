@@ -25,6 +25,7 @@ jobs:
           images: |
             ghcr.io/30james00/fibcalc
           tags: |
+            type=raw,value=latest
             type=ref,event=branch
             type=semver,pattern={{version}}
 
