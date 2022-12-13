@@ -1,5 +1,5 @@
 # FibCalc
-FibCalc is .NET 7 MVC Application built with Docker support and GitHub Actions in mind.
+FibCalc is .NET 7 MVC Application built with Docker and GitHub Actions support.
 
 [Sprawozdanie](Sprawozdanie.md)
 
