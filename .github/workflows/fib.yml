@@ -3,6 +3,7 @@ name: Build and push images to repositories
 on:
   push:
     branches: [ master ]
+    tags: [ * ]
 
 jobs:
   build-push:
