@@ -30,6 +30,8 @@ jobs:
           context: FibCalc
           platforms: linux/amd64, linux/arm64
           push: true
-          tags: 30james00/fibcalc
+          tags: |
+            30james00/fibcalc
+            ghcr.io/30james00/fibcalc
     
     
