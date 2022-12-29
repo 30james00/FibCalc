@@ -52,7 +52,7 @@ jobs:
           cache-from: type=registry,mode=max,ref=30james00/fibcalc:cache
           cache-to: type=registry,mode=max,ref=30james00/fibcalc:cache
           context: FibCalc
-          file: ./Dockerfile_dod1
+          file: FibCalc/Dockerfile_dod1
           platforms: linux/amd64, linux/arm64
           push: true
           tags: ${{ steps.meta.outputs.tags }}
