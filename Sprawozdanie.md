@@ -83,7 +83,22 @@ Rezultat wykonania polecenia:
 ![4A](Screenshots/4a.png)
 
 #### B
+
+```shell
+gh workflow run <workflow_number>
+gh run watch
+```
+
+Rezultat wykonania polecenia:
+![4B](Screenshots/4b.png)
+
 #### C
+
+Uruchomienie obrazu z GitHub Container Registry:  
+`docker run --rm -p 5000:80 ghcr.io/30james00/fibcalc:master`
+
+Rezultat wykonania polecenia:
+![4C](Screenshots/4c.png)
 
 ## Część nieobowiązkowa
 
