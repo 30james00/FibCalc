@@ -70,6 +70,21 @@ się do Docker Hub a właśnie do GitHub Container Registry. Aby obrazy były wy
 Action `docker/metadata-action@v4` ustawiono nazwę obrazu z podaniem domeny `ghcr.io`. Dzięki temu
 Action `docker/build-push-action@v3` umieszcza obrazy w poprawnym repo.
 
+### 4.
+
+#### A
+
+```shell
+gh workflow list
+gh workflow view <workflow_number>
+```
+
+Rezultat wykonania polecenia:
+![4A](Screenshots/4a.png)
+
+#### B
+#### C
+
 ## Część nieobowiązkowa
 
 ### Zadanie nieobowiązkowe 1

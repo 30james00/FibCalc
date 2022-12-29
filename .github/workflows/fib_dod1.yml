@@ -1,8 +1,12 @@
-name: Build and push images
+name: Build and push images with cross-compilation
 
 on:
   push:
     workflow_dispatch:
+    branches:
+      - 'master'
+    tags:
+      - '*'
 
 jobs:
   build-push:
