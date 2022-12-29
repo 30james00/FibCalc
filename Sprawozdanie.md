@@ -100,6 +100,14 @@ Uruchomienie obrazu z GitHub Container Registry:
 Rezultat wykonania polecenia:
 ![4C](Screenshots/4c.png)
 
+Dowód na poprawne działanie cache - ładowanie z Docker Hub i późniejsze użycie do budowania:
+
+![Cache](Screenshots/cache.png)
+
+Dowód na poprawne działanie tagowania obrazów zgodnie z SemVer:
+
+![SemVer Tag](Screenshots/semver.png)
+
 ## Część nieobowiązkowa
 
 ### Zadanie nieobowiązkowe 1
