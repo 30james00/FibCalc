@@ -49,8 +49,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          cache-from: type=registry,mode=max,ref=30james00/fibcalc:cache
-          cache-to: type=registry,mode=max,ref=30james00/fibcalc:cache
+          cache-from: type=registry,mode=max,ref=30james00/fibcalc:cache-cross
+          cache-to: type=registry,mode=max,ref=30james00/fibcalc:cache-cross
           context: FibCalc
           file: FibCalc/Dockerfile_dod1
           platforms: linux/amd64, linux/arm64
