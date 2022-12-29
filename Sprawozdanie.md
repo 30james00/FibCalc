@@ -112,4 +112,15 @@ Dowód na poprawne działanie tagowania obrazów zgodnie z SemVer:
 
 ### Zadanie nieobowiązkowe 1
 
+[Plik Dockerfile](FibCalc/Dockerfile_dod1)  
+[Workflow Github Actions](.github/workflows/fib_dod1.yml)
+
+Dowód na poprawne działanie workflow GitHub Actions:
+
+![Cross-compilation workflow run](Screenshots/cross_action.png)
+
+Dowód na poprawne działanie obrazu:
+
+![Cross-compilation run](Screenshots/cross_run.png)
+
 ### Zadanie nieobowiązkowe 2
